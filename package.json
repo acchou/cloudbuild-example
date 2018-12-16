@@ -10,47 +10,17 @@
     "scripts": {
         "build": "npm run clean && tsc",
         "watch": "npm run clean && tsc --watch",
-        "test": "npm run build && jest",
         "run": "node build/index.js",
         "clean": "rm -rf build"
     },
     "author": "Andy Chou",
     "license": "ISC",
     "dependencies": {
-        "@types/uuid": "^3.4.4",
-        "aws-sdk": "^2.243.1",
-        "axios": "^0.18.0",
-        "commander": "^2.15.1",
-        "debug": "^4.1.0",
-        "googleapis": "^34.0.0",
-        "tslib": "^1.9.1",
-        "uuid": "^3.3.2"
+        "googleapis": "latest",
+        "tslib": "latest"
     },
     "devDependencies": {
-        "@types/aws-lambda": "^8.10.6",
-        "@types/debug": "^0.0.31",
-        "@types/express": "^4.11.1",
-        "@types/jest": "^23.3.1",
-        "@types/node": "^10.1.0",
-        "jest": "^23.1.0",
-        "tslint": "^5.10.0",
-        "tslint-config-prettier": "^1.13.0",
-        "typescript": "^3.0.0"
-    },
-    "jest": {
-        "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-        "moduleFileExtensions": [
-            "js",
-            "jsx",
-            "json",
-            "node"
-        ],
-        "roots": [
-            "build/"
-        ],
-        "testPathIgnorePatterns": [
-            "<rootDir>/node_modules"
-        ],
-        "testEnvironment": "node"
+        "@types/node": "latest",
+        "typescript": "latest"
     }
 }
