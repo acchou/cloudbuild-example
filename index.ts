@@ -25,3 +25,5 @@ export async function main() {
         console.log(`%O`, { func });
     }
 }
+
+main();
