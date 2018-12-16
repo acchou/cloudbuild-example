@@ -7,8 +7,8 @@ export async function initializeGoogleServices() {
     google.options({ auth });
     return {
         cloudFunctions: google.cloudfunctions("v1"),
-        pubsub: google.pubsub("v1"),
-        cloudBilling: google.cloudbilling("v1"),
+        // pubsub: google.pubsub("v1"),
+        // cloudBilling: google.cloudbilling("v1"),
         google
     };
 }
