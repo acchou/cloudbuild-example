@@ -1,6 +1,6 @@
 import { google } from "googleapis";
 
-export async function initializeGoogleServices() {
+export async function initialize() {
     console.log(`getClient`);
     const auth = await google.auth.getClient({
         scopes: ["https://www.googleapis.com/auth/cloud-platform"]
@@ -8,4 +8,4 @@ export async function initializeGoogleServices() {
     console.log(`Result: success`);
 }
 
-initializeGoogleServices();
+initialize();
