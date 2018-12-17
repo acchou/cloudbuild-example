@@ -3,8 +3,8 @@
         "outDir": "build",
         "rootDir": ".",
         "module": "commonjs",
-        "target": "es2017",
-        "lib": ["es2017", "esnext.asynciterable"],
+        "target": "es6",
+        "lib": ["es6"],
         // "sourceMap": true,
         "inlineSourceMap": true,
         "inlineSources": true,
@@ -20,10 +20,8 @@
         "allowUnusedLabels": false,
         "noUnusedParameters": true,
         "strict": true,
-        "noEmitHelpers": true,
-        "importHelpers": true,
         "allowSyntheticDefaultImports": true
     },
-    // "include": ["src", "examples", "types", "test", "test-slow", "test-other"],
+    "include": ["index.ts"],
     "exclude": ["node_modules", "build"]
 }

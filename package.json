@@ -16,8 +16,7 @@
     "author": "Andy Chou",
     "license": "ISC",
     "dependencies": {
-        "googleapis": "latest",
-        "tslib": "latest"
+        "googleapis": "latest"
     },
     "devDependencies": {
         "@types/node": "latest",
